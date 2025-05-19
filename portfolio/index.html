@@ -21,30 +21,41 @@
         <ul class="nav-links">
             <li><a href="#home">home</a></li>
             <li><a href="#about">about me</a></li>
-            <li><a href="#project">project</a></li>
+            <li><a href="#project">projects</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Syed Arslan</h1>
+                <div>
+                    <h2 class="profession">
+                        <span class="text-animation" id="text-animation">Web Developer</span>
+                    </h2>
+                </div>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section class="about-me" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="profile-pic">
+                    <img src="Images/arslanpic.jpg" alt="Syed Arslan">
+                </div>
+                <div class="description">
+                    <h2>Full-Stack Developer</h2>
+                    <p>I'm a passionate full-stack developer currently honing my programming skills at Migracode Barcelona. I
+                        love the creativity of coding and am always learning new tools to grow as a professional.</p>
+                    <p>I have front-end and back-end development experience, focusing on clean, testable code, and I'm skilled
+                        in using GitHub for version control. Alongside my coding journey, I manage my time effectively,
+                        balancing my development work with a part-time job as a Glovo delivery rider, demonstrating my
+                        commitment and ability to handle multiple responsibilities.</p>
+                </div>
+            </div>
+        </section>
     <main>
-        <div class="container" id="home">
-            <span class="text">Hi, I am Syed</span>
-            <span class="text">A Junior</span>
-            <span class="text">Web Developer</span>
-        </div>
-        <div class="about-me" id="about">
-            <div class="profile-pic">
-                <img src="Images/arslanpic.jpg"
-                    alt="Your Name">
-            </div>
-            <div class="description">
-                <h1>About Me</h1>
-                <p>I’m a passionate full-stack developer currently honing my programming skills at Migracode Barcelona. I love the
-                creativity of coding and am always learning new tools to grow as a professional. I have front-end and back-end
-                development experience, focusing on clean, testable code, and I’m skilled in using GitHub for version control. Alongside
-                my coding journey, I manage my time effectively, balancing my development work with a part-time job as a Glovo delivery
-                rider, demonstrating my commitment and ability to handle multiple responsibilities.</p>
-            </div>
-        </div>
         <section class="skills-section">
             <h1>Development Skills</h1>
             <div class="skills-container">
@@ -163,7 +174,7 @@
         </section>
         <section class="contact-form-section" id="contact">
             <h1>Contact Me</h1>
-            <form class="contact-form" method="GET" data-netlify="true" action="thankyou.html" >
+            <form class="contact-form" method="GET" data-netlify="true" action="thankyou.html">
                 <input type="hidden" name="form-name" value="contact">
                 <div class="form-group">
                     <label for="name">Full Name</label>
